@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>宠物商城</title>
+<link rel="stylesheet" type="text/css" href="./images/reset.css">
+<link rel="stylesheet" type="text/css" href="./images/shop.css">
+<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7/dist/css/bootstrap.css">
+<script src="lib\jquery-3.2.1.min.js"></script>
+<script src="bootstrap-3.3.7\dist\js\bootstrap.min.js"></script>
+</head>
+<body>
+      <div id="header"><img src="./images/shop_logo.png"></div>
+      <h1 class="store_name"><b>萌宠市集</b></h1>
+      <ul id="nav" style="text-align: center;">
+        <li><a href="#activities" class="active">优惠活动</a></li>
+        <li><a href="#recommendations">店长推荐</a></li>
+        <li><a href="#new_arrivals">新品推荐</a></li>
+        <li><a href="#">用户登录</a></li>
+        <li><a href="#">购物车</a></li>
+      </ul>
+      <div id="main1" style="position: relative;top: 20px;">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="padding-left: 350px;padding-bottom: 91px;">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>         <!--ol是有序列表->
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <img src="./images/banner3.jpg"> 
+                <div class="carousel-caption"></div>
+              </div>
+              <div class="item">
+                <img src="./images/banner4.jpg">
+                <div class="carousel-caption"></div>
+              </div>
+              <div class="item">
+                <img src="./images/banner5.jpg">
+                <div class="carousel-caption"></div>
+              </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+        </div>
+      </div>
+      <div id="activities" style="color: #855844; padding-top: 29px;   font-family: '方正舒体'; text-align: center;">
+        <h1><b>优惠活动</b></h1>
+      </div>
+      <div id="main2">
+        <div class="discounted"><img src="./images/youhui1.jpg"></div>
+        <div class="discounted"><img src="./images/youhui2.jpg"></div>
+        <div class="discounted"><img src="./images/youhui3.jpg"></div>
+        <div class="discounted"><img src="./images/youhui4.jpg"></div>
+        <div class="discounted"><img src="./images/youhui5.jpg"></div>
+        <div class="discounted"><img src="./images/youhui6.jpg"></div>
+      </div>
+      <div id="recommendations" style="color: #855844; font-family: '方正舒体'; text-align: center; float: left; position: relative; top: 25px; left: 876px;">
+        <h1><b>店长推荐</b></h1>
+      </div>
+      <div id="main3">
+        <div class="recommend"><img src="./images/tuijian1.jpg">
+          <p id="describe">惜时猫罐限量优惠组<br/>惜时</p>
+          <p style="font-size: 16px;">MamaMia猫餐罐 85克+每客思 115克 综合罐 （10入/不挑款）</p>
+          <p id="price">$229</p>
+          <a href="#" class="btn"><img src="./images/gouwuche_LOGO.png" class="img-rounded"></a>
+        </div>
+        <div class="recommend"><img src="./images/tuijian2.jpg">
+          <p id="describe">抓板罐罐特惠【限购一组】<br/>毛孩精选</p>
+          <p style="font-size: 16px;">【限购一组】ZEAL 成猫混罐4入+剑麻猫抓板 （均不挑款）</p>
+          <p id="price">$199</p>
+          <a href="#" class="btn"><img src="./images/gouwuche_LOGO.png" class="img-rounded"></a>
+        </div>
+        <div class="recommend"><img src="./images/tuijian3.jpg">
+          <p id="describe">小花饮水器特惠<br/>BeaconPet</p>
+          <p style="font-size: 16px;">BeaconPet-小花宠物饮水机  1.6L（橘色小花）</p>
+          <p id="price">$780</p>
+          <a href="#" class="btn"><img src="./images/gouwuche_LOGO.png" class="img-rounded"></a>
+        </div>
+        <div class="recommend"><img src="./images/tuijian4.jpg">
+          <p id="describe">纽萃狗宝限时特惠<br/>NUTRIPE 纽萃宝</p>
+          <p style="font-size: 16px;">纽萃狗宝狗狗 Q10 95 克 混罐组 (6入/不挑款)【限购一组】</p>
+          <p id="price">$220</p>
+          <a href="#" class="btn"><img src="./images/gouwuche_LOGO.png" class="img-rounded"></a>
+        </div>
+        <div class="recommend"><img src="./images/tuijian5.jpg">
+          <p id="describe">Zoë狗罐限时下杀<br/>Hagen</p>
+          <p style="font-size: 16px;">Zoë 3合一犬食组合套餐混罐组 (6入/不挑款)【限购一组】</p>
+          <p id="price">$240</p>
+          <a href="#" class="btn"><img src="./images/gouwuche_LOGO.png" class="img-rounded"></a>
+        </div>
+        <div class="recommend"><img src="./images/tuijian6.jpg">
+          <p id="describe">爱宠豆腐砂特惠<br/>爱宠</p>
+          <p style="font-size: 16px;">爱宠(LovePet)豆腐猫砂 （綠茶） 7L【限购三组】</p>
+          <p id="price">$235</p>
+          <a href="#" class="btn"><img src="./images/gouwuche_LOGO.png" class="img-rounded"></a>
+        </div>
+        <div class="recommend"><img src="./images/tuijian7.jpg">
+          <p id="describe">满 1 件 ↘ 85 折<br/>AFU</p>
+          <p style="font-size: 16px;"> 拉咬球 （未备注则颜色随机发货）【限购三组】</p>
+          <p id="price">$85</p>
+          <a href="#" class="btn"><img src="./images/gouwuche_LOGO.png" class="img-rounded"></a>
+        </div>
+        <div class="recommend"><img src="./images/tuijian8.png">
+          <p id="describe">满 1 件 包邮<br/>Natural Balance</p>
+          <p style="font-size: 16px;"> 低敏无谷地瓜鲑鱼 (小颗粒小型犬) 4.5 磅【限购一组】</p>
+          <p id="price">$882</p>
+          <a href="#" class="btn"><img src="./images/gouwuche_LOGO.png" class="img-rounded"></a>
+        </div>
+      </div>
+      <div id="new_arrivals" style="color: #855844; font-family: '方正舒体'; text-align: center; float: left; position: relative; top: 500px; left: 876px;">
+        <h1><b>新品推荐</b></h1>
+      </div>
+      <div id="main4">
+        <div class="newArrival"><img src="./images/xinpin1.jpg">
+          <p id="describe">脚底毛电剪特惠<br/>URBANER 奧本</p>
+          <p style="font-size: 16px;">宠物脚底毛小电剪</p>
+          <p id="price">$980</p>
+          <a href="#" class="btn" style="position: relative;top: -55px; left: 185px;"> <img src="./images/gouwuche_LOGO.png" class="img-rounded"></a>
+        </div>
+        <div class="newArrival"><img src="./images/xinpin2.jpg">
+          <p id="describe">仿真鱼猫草包新品特惠<br/>毛孩精选</p>
+          <p style="font-size: 16px;">CatWorks 猫薄荷X毒鱼-秋刀鱼</p>
+          <p id="price">$199</p>
+          <a href="#" class="btn" style="position: relative;top: -55px; left: 185px;"> <img src="./images/gouwuche_LOGO.png" class="img-rounded"></a>
+        </div>
+        <div class="newArrival"><img src="./images/xinpin3.jpg">
+          <p id="describe">仿真鱼猫草包新品特惠<br/>毛孩精选</p>
+          <p style="font-size: 16px;">CatWorks 猫薄荷X毒鱼-红岩鱼</p>
+          <p id="price">$199</p>
+          <a href="#" class="btn" style="position: relative;top: -55px; left: 185px;"> <img src="./images/gouwuche_LOGO.png" class="img-rounded"></a>
+        </div>
+        <div class="newArrival"><img src="./images/xinpin4.jpg">
+          <p id="describe">Mervue 愛爱尔兰沃维</p>
+          <p style="font-size: 16px; padding-top: 8px;">营养保健针 - 猫咪离胺酸免疫配方 30 毫升</p>
+          <p id="price">$503</p>
+          <a href="#" class="btn" style="position: relative;top: -55px; left: 185px;"> <img src="./images/gouwuche_LOGO.png" class="img-rounded"></a>
+        </div>
+        <div class="newArrival"><img src="./images/xinpin5.jpg">
+          <p id="describe">满 1 件 ↘ 85 折<br/>毛孩精选</p>
+          <p style="font-size: 16px; padding-top: 8px;">发生小鸡腿1支（18cm）</p>
+          <p id="price">$85</p>
+          <a href="#" class="btn" style="position: relative;top: -55px; left: 185px;"> <img src="./images/gouwuche_LOGO.png" class="img-rounded"></a>
+        </div>
+        <div class="newArrival"><img src="./images/xinpin6.jpg">
+          <p id="describe">Mervue 愛爱尔兰沃维</p>
+          <p style="font-size: 16px; padding-top: 8px;">营养保健针 - 犬关节强化配方 60 毫升</p>
+          <p id="price">$503</p>
+          <a href="#" class="btn" style="position: relative;top: -55px; left: 185px;"> <img src="./images/gouwuche_LOGO.png" class="img-rounded"></a>
+        </div>
+        <div class="newArrival"><img src="./images/xinpin7.jpg">
+          <p id="describe">Mervue 愛爱尔兰沃维</p>
+          <p style="font-size: 16px; padding-top: 8px;">营养保健针 - 犬肌肤健康配方 60 毫升</p>
+          <p id="price">$503</p>
+          <a href="#" class="btn" style="position: relative;top: -55px; left: 185px;"> <img src="./images/gouwuche_LOGO.png" class="img-rounded"></a>
+        </div>
+        <div class="newArrival"><img src="./images/xinpin8.jpg">
+          <p id="describe">T-PET</p>
+          <p style="font-size: 16px; padding-top: 32px;">猫口炎喷剂 30 毫升</p>
+          <p id="price">$499</p>
+          <a href="#" class="btn" style="position: relative;top: -55px; left: 185px;"> <img src="./images/gouwuche_LOGO.png" class="img-rounded"></a>
+        </div>
+      </div>
+      <div id="footer">
+        <div id="icon">
+          <span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
+          <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span>
+          <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+       </div>
+        <div id="icon_message">
+          <li style="padding-left: 25%;">地址：广东省中山市广东药科大学(中山校区)</li>
+          <li style="padding-left: 6.5%;">联系电话：13425470532</li>
+          <li style="padding-left: 8.7%;">邮箱：448419967@qq.com</li>
+        </div>
+        <div id="Copyright">
+        <p>Copyright ©2017 萌宠市集 |
+          <a href="#header" style="color: black;">返回首页</a>
+        </p>
+        </div>
+      </div>
+</body>
+</html>
