@@ -1,0 +1,279 @@
+#container{
+		width:100%;
+	}
+	#logo{
+		width: 753px;
+		height: 120px;
+		background-image: url(./logo.png);
+		float: left;
+	}
+	#nav li{
+		width: 150px;
+		margin-right: 1px;
+		float: left;
+	}
+	#nav a{
+		font:17px/120px '微软雅黑','黑体';
+		display: block;
+		color:black;
+	}
+	#contact a{
+		font:17px/150px '微软雅黑','黑体';
+		display: block;
+		color:black;
+		padding-left: 1384px;
+	}
+	#nav .active{
+		color: white;
+		background: url(./bg_color.png);
+	}
+	#nav a:hover{
+		color: white;
+		background: url(./bg_color.png);
+		text-decoration: none;  /*去掉a标签的下划线*/
+	}
+
+	/*main1的样式：*/
+	#main1{
+		position: absolute;
+		top: 120px;
+	}
+	#contact a{
+		display: block;
+		color: orange;
+	}
+	#contact ul{
+		height: 150px;
+		background-image: url(./serve.png);
+	}
+
+
+	/*main2的样式：*/
+	#subtitle_1{
+		width: 350px;
+		height: 150px;
+		background-image: url(./title1.png);
+		position: relative;
+		top: 1100px;
+		left: 755px;
+	}
+	#serve{
+		width: 1200px;
+		height: 650px;
+		background-image: url(./our_serve.png);
+		position: relative;
+		top: 1250px;
+		left: 340px;
+	}
+	#serve li{
+		color: orange;
+		font-size: 20px;
+		font-style: '微软雅黑','黑体';
+	}
+	#food{
+		width: 180px;
+		position: relative;
+		top: 494px;
+		left: 418px;
+	}
+	#medical{
+		width: 120px;
+		position: relative;
+		top: 20px;
+		left: 340px;
+	}
+	#cosmesis{
+		width: 225px;
+		position: relative;
+		top: 11px;
+		left: 940px;
+	}
+	#nurse{
+		width: 110px;
+		position: relative;
+		top: -56px;
+		left: 71px;
+	}
+	#foster{
+		width: 225px;
+		position: relative;
+		top: -32px;
+		left: 1023px;
+	}
+	#training{
+		width: 210px;
+		position: relative;
+		top: 42px;
+		left: 95px;
+	}
+
+
+/*main3的样式：*/
+	#subtitle_2{
+		width: 350px;
+		height: 120px;
+		background-image: url(./title2.png);
+		position: relative;
+		top: 1400px;
+		left: 755px;
+	}
+	#information1{
+		width: 530px;
+		height: 217px;
+		border: 1px solid orange;
+		background-image: url(./cat.png);
+		position: relative;
+		top: 1480px;
+		left: 390px;
+
+	}
+	#cat_LOGO{
+		width: 70px;
+		height: 70px;
+		border-radius: 35px;
+		background-image: url(./cat_LOGO.png);
+		position: relative;
+		top: 180px;
+		left: 85px;
+	}
+	#cat{
+		width: 530px;
+		position: relative;
+		padding-top: 40px;
+		padding-left: 15px;
+		top: 144px;
+		left: -1px;
+	}
+	#cat h4{
+		color: orange;
+	}
+	#cat p{
+		text-indent: 2em;		/*实现p标签开头空2格*/
+		padding-top: 20px;
+		font-size: 15px;
+		color: gray;
+	}
+
+	#information2{
+		width: 529px;
+		height: 217px;
+		background-image: url(./dog.png);
+		border: 1px solid orange;
+		position: relative;
+		top: 1263px;
+		left: 975px;
+
+	}
+	#dog_LOGO{
+		width: 70px;
+		height: 70px;
+		border-radius: 35px;
+		background-image: url(./dog_LOGO.png);
+		position: relative;
+		top: 180px;
+		left: 85px;
+	}
+	#dog{
+		width: 530px;
+		position: relative;
+		padding-top: 40px;
+		padding-left: 15px;
+		top: 144px;
+		left: -1px;
+	}
+	#dog h4{
+		color: orange;
+	}
+	#dog p{
+		text-indent: 2em;		/*实现p标签开头空2格*/
+		padding-top: 20px;
+		font-size: 15px;
+		color: gray;
+	}
+
+
+/*main4的样式：*/
+	#main4{
+		width: 670px;
+		height: 450px;
+		background-image: url(./puppy.png);
+		position: relative;
+		top: 1650px;
+		left: 200px;
+	}
+	#puppy{
+		position: relative;
+		top: 80px;
+		left: 650px;
+	}
+	#puppy h1{
+		color: orange;
+	}
+	#puppy p{
+		text-indent: 2em;		/*实现p标签开头空2格*/
+		padding-top: 40px;
+		font-size: 18px;
+		color: gray;
+	}
+	#contact2{
+		width: 197px;
+		height: 78px;
+		background-image: url(./contact.png);
+		position: relative;
+		top: 120px;
+		left: 995px;
+	}
+	#contact2 a{
+		font-size: 19px;
+		display: block;
+		color: orange;
+		position: relative;
+		top: 29px;
+		left: 62px;
+	}
+
+/*main5的样式：*/
+	#subtitle_3{
+		width: 350px;
+		height: 130px;
+		background-image: url(./title3.png);
+		position: relative;
+		top: 1800px;
+		left: 755px;
+	}
+	html,body{margin:0;padding:0;}
+    .iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
+    .iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}
+	
+	#dituContent{
+		position: relative;
+		top: 1900px;
+		left: 370px;
+	}
+	#xinxi form{
+		float: right;
+		position: relative;
+		top: 1100px;
+		left: -412px;
+	}
+
+/*footer的样式：*/
+	#icon{
+		width: 100%
+		border: 1px solid #393737;
+		font-size: 25px;
+		color: white;
+		letter-spacing:150px;
+		padding-top: 50px;
+		padding-left: 610px;
+		padding-bottom: 200px;
+		background-color: #393737;
+		position: relative;
+		top: 1600px;
+	}
+	#icon_message li{
+		color: white;
+		display: inline;
+		position: relative;
+		top: 1430px;
+	}
