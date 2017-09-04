@@ -1,0 +1,55 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>div test</title>
+<style>
+	#container{
+		width: 1002px;
+		margin: 0 auto;
+		background: purple;
+	}
+	#header{
+	height:120px;
+	background:red;
+	}
+	#main{
+	height:600px;
+	background:black;
+	}
+	#left{
+	width:700px;
+	height:600px;
+	float:left;
+	background:gray;
+	}
+	#footer{
+	height:120px;
+	background:blue;
+	}
+	.four{
+	width: 330px;
+	height: 280px;
+	background: yellow;
+	margin: 10px;
+	float: left;
+	}
+</style>
+</head>
+<body>
+	<div id="container">
+		<div id="header"></div>
+		<div id="main">
+			<div id="left">
+				<div class="four"></div>
+				<div class="four"></div>
+				<div class="four"></div>
+				<div class="four"></div>
+			</div>
+			<div id="right"></div>
+		</div>
+		<div id="footer"></div>
+	</div>
+</body>
+</html>

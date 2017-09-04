@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<style type="text/css">
+	/*span{
+		height: 200px;
+		width: 200px;
+		background: blue;
+		display: block;
+	}
+	div{
+		height: 200px;
+		width: 200px;
+		background: yellow;
+		display: none;
+		display: inline;
+	}
+	#p1{
+		background: gray;
+		text-indent: 20px;
+		text-align: center;
+		text-decoration: blink;
+	}
+	#p2{
+		text-decoration: underline;
+		letter-spacing: 3px;
+	}*/
+	#p1{
+		width: 100px;
+		height: 50px;
+		border:1px solid blue;
+	}
+	.p2{
+		width: 100px;
+		height: 50px;
+		border:1px solid red;
+	}
+	div{
+		width: 100px;
+		height: 50px;
+		background: gray;
+		margin-top: 5px;
+	}
+	div p{
+		color:purple;
+		font-style:italic;
+		font-weight: bold;
+	}
+	a:link{
+		color: gray;
+	}
+	a:visited{
+		color: red;
+	}
+	a:hover{
+		color: pink;
+	}
+	a:active{
+		color: black;
+	}
+</style>
+<body>
+	<div id="p1">test1</div>
+	<div class="p2">test2</div>
+	<div><p>div中的标签</p></div>
+	<p>独立的p标签</p>
+	<a href="ddd.html#p1" title="跳转到p1锚点" >p1锚点</a>
+	<a href="ddd.html#p2" title="跳转到p2锚点" >p2锚点</a>
+	<a href="ddd.html#p2" title="跳转到p3锚点" >p3锚点</a>
+	<a name="p1"></a>
+	<p>p1</p>
+	<br />
+	<br />
+	<br />
+	<a name="p2"></a>
+	<p>p2</p>
+	<br />
+	<br />
+	<br />
+	<a name="p3"></a>
+	<p>p3</p>
+	<br />
+	<br />
+	<br />
+	<a href="#">空链接</a>
+	<a href="#">空链接</a>
+	<a href="#">空链接</a>
+</body>
+</html>
