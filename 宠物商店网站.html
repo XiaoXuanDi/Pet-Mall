@@ -1,0 +1,294 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>宠物商店网站</title>
+<link rel="stylesheet" type="text/css" href="./images/reset.css">
+<link rel="stylesheet" type="text/css" href="./images/shouye.css">
+<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7/dist/css/bootstrap.css">
+<script src="lib\jquery-3.2.1.min.js"></script>
+<script src="bootstrap-3.3.7\dist\js\bootstrap.min.js"></script>
+<script>
+	$(function(){
+		$('.dropdown-toggle').dropdown();
+	});
+</script>
+<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+</head>
+<body>	
+	<div id="container">
+		<div id="header">
+			<div id="logo"></div>
+			<ul id="nav" style="text-align: center;">
+				<li><a href="#nav" class="active">首页</a></li>
+				<li><a href="#subtitle_1">宠物服务</a></li>
+				<li><a href="#subtitle_2">萌宠资讯</a></li>
+				<li><a href="#subtitle_3">联系我们</a></li>
+				<li><a href="./宠物商城.html">宠物商城</a></li>
+				<li>
+					<div class="dropdown">
+					  <a id="dLabel" href="#" data-toggle="dropdown" role="button">
+					    制作者名单 
+					    <span class="caret"></span>
+					  </a>
+					  <ul class="dropdown-menu">
+					    <li style="font-size: 25px; padding-left: 40px; height: 40px; color:#2296DF; background-image: url(./images/background1.png);">段逸轩</li>
+					    <li style="font-size: 25px; padding-left: 40px; height: 40px; color:#8498A4; background-image: url(./images/background2.png);">杜德钱</li>
+					  </ul>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div id="main1">
+			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			  <!-- Indicators -->
+			  <ol class="carousel-indicators">
+			    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+			  </ol>         <!--ol是有序列表->
+
+			  <!-- Wrapper for slides -->
+			  <div class="carousel-inner" role="listbox">
+			    <div class="item active">
+			      <img src="./images/banner1.jpg"> 
+			      <div class="carousel-caption"></div>
+			    </div>
+			    <div class="item">
+			      <img src="./images/banner2.jpg">
+			      <div class="carousel-caption"></div>
+			    </div>
+			  </div>
+
+			  <!-- Controls -->
+			  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+			    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			    <span class="sr-only">Previous</span>
+			  </a>
+			  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+			    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			    <span class="sr-only">Next</span>
+			  </a>
+			</div>
+			<div id="contact"><ul><a href="#subtitle_3">联系我们</a></ul></div>
+		</div>
+		<div id="main2">
+			<div id="subtitle_1"></div>
+			<div id="serve">
+				<div id="food"><li>宠物饮食</li><p>宠物的饮食和营养也越来越受大家的关注</p></div>
+				<div id="medical"><li>宠物医疗</li><p>宠物的医疗和保养也越来越受大家的关注</p></div>
+				<div id="cosmesis"><li>宠物美容</li><p>所谓的宠物美容，就是借着美容用品和修剪技法和染色激发增添美</p></div>
+				<div id="nurse"><li>宠物护理</li><p>让宠物的外观得到美化和保护，变得更健康和时尚</p></div>
+				<div id="foster"><li>宠物寄养</li><p>因为宠物的种类多，各自的生活习性不同，对营养的需求也不尽相同</p></div>
+				<div id="training"><li>宠物训练</li><p>让它觉得这段时间充满了乐趣，从而增强宠物与主人的感情</p></div>
+			</div>
+		</div>
+		<div id="main3">
+			<div id="subtitle_2"></div>
+			<div id="information1">
+				<div id="cat_LOGO"></div>
+				<div id="cat">
+					<h4>垃圾桶中救出两只小猫咪，狗妈妈把它们视如己</h4>
+						<p>三只新生小猫因为刚出生所以身体非常虚弱，不停发出虚弱的喵喵声像是在找妈妈。它们被丢弃在这种恶劣的环境下，又无依无靠没有父母在身旁，根本无法平安成长。幸好后来被一位好心人从垃圾桶中救出来。</p>
+				</div>
+			</div>
+			<div id="information2">
+				<div id="dog_LOGO"></div>
+				<div id="dog">
+					<h4>狗的寿命狗能活多久</h4>
+						<p>遗憾的是目前还没有确切的回答这个普遍的问题。这是因为，狗的实际寿命取决于品种和大小。小型犬是犬体重<10公斤，如腊肠犬，Papillons和吉娃娃。11-25kgs之间的狗被认为是中等规模的品种像边境牧羊犬。</p>
+				</div>
+			</div>
+		</div>
+		<div id="main4">
+			<div id="puppy">
+				<h1>动物是人类的朋友</h1>
+					<p>从分享你我的养宠心情到爱宠人之间的经验交流，从网上购物到在线医疗，宠物生活中涉及的方方面面，都在不断努力将它们做到最好。在这里，每一个热爱宠物的人，不但能找到他们想要的，而且能得到比他们想要的更多。</p>
+			</div>
+			<div id="contact2">
+				<ul><a href="#subtitle_3">联系我们</a></ul>
+			</div>
+		</div>
+		<div id="main5">
+			<div id="subtitle_3"></div>
+			<div style="width:586px; height:605px; border:#ccc solid 1px;" id="dituContent"></div>
+			<script type="text/javascript">
+			   //创建和初始化地图函数：
+			   function initMap(){
+			       createMap();//创建地图
+			       setMapEvent();//设置地图事件
+			       addMapControl();//向地图添加控件
+			       addMarker();//向地图中添加marker
+			   }
+			   
+			   //创建地图函数：
+			   function createMap(){
+			       var map = new BMap.Map("dituContent");//在百度地图容器中创建一个地图
+			       var point = new BMap.Point(113.421817,22.48474);//定义一个中心点坐标
+			       map.centerAndZoom(point,18);//设定地图的中心点和坐标并将地图显示在地图容器中
+			       window.map = map;//将map变量存储在全局
+			   }
+			   
+			   //地图事件设置函数：
+			   function setMapEvent(){
+			       map.enableDragging();//启用地图拖拽事件，默认启用(可不写)
+			       map.enableScrollWheelZoom();//启用地图滚轮放大缩小
+			       map.enableDoubleClickZoom();//启用鼠标双击放大，默认启用(可不写)
+			       map.enableKeyboard();//启用键盘上下左右键移动地图
+			   }
+			   
+			   //地图控件添加函数：
+			   function addMapControl(){
+			       //向地图中添加缩放控件
+				var ctrl_nav = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_LARGE});
+				map.addControl(ctrl_nav);
+				       //向地图中添加缩略图控件
+				var ctrl_ove = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:1});
+				map.addControl(ctrl_ove);
+				       //向地图中添加比例尺控件
+				var ctrl_sca = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});
+				map.addControl(ctrl_sca);
+				}
+				   
+			     //标注点数组
+			    var markerArr = [{title:"广东药科大学",content:"宿舍：8栋611室<br/>杜德钱：1405553132<br/>段逸轩：1405553133",point:"113.421817|22.48474",isOpen:1,icon:{w:23,h:25,l:46,t:21,x:9,lb:12}}
+			    ];
+			   //创建marker
+			   function addMarker(){
+			       for(var i=0;i<markerArr.length;i++){
+			           var json = markerArr[i];
+			           var p0 = json.point.split("|")[0];
+			           var p1 = json.point.split("|")[1];
+			           var point = new BMap.Point(p0,p1);
+					   var iconImg = createIcon(json.icon);
+					           var marker = new BMap.Marker(point,{icon:iconImg});
+					   var iw = createInfoWindow(i);
+					   var label = new BMap.Label(json.title,{"offset":new BMap.Size(json.icon.lb-json.icon.x+10,-20)});
+					   marker.setLabel(label);
+					           map.addOverlay(marker);
+					           label.setStyle({
+					                       borderColor:"#808080",
+					                       color:"#333",
+					                       cursor:"pointer"
+					           });
+			  
+			  (function(){
+			   var index = i;
+			   var _iw = createInfoWindow(i);
+			   var _marker = marker;
+			  	  _marker.addEventListener("click",function(){
+			       this.openInfoWindow(_iw);
+			      });
+			      _iw.addEventListener("open",function(){
+			       _marker.getLabel().hide();
+			      })
+			      _iw.addEventListener("close",function(){
+			       _marker.getLabel().show();
+			      })
+			 	  label.addEventListener("click",function(){
+			       _marker.openInfoWindow(_iw);
+			      })
+				   if(!!json.isOpen){
+				    label.hide();
+				    _marker.openInfoWindow(_iw);
+				    }
+				  })()
+				       }
+			   }
+			   //创建InfoWindow
+			   function createInfoWindow(i){
+			       var json = markerArr[i];
+			       var iw = new BMap.InfoWindow("<b class='iw_poi_title' title='" + json.title + "'>" + json.title + "</b><div class='iw_poi_content'>"+json.content+"</div>");
+			       return iw;
+			   }
+			   //创建一个Icon
+			   function createIcon(json){
+			       var icon = new BMap.Icon("http://map.baidu.com/image/us_cursor.gif", new BMap.Size(json.w,json.h),{imageOffset: new BMap.Size(-json.l,-json.t),infoWindowOffset:new BMap.Size(json.lb+5,1),offset:new BMap.Size(json.x,json.h)})
+			       return icon;
+			   }
+			   initMap();//创建和初始化地图
+			</script>
+			<div id="xinxi">
+				<p style="width: 580px; height: 350px; font-size: 17px; color: gray; position: relative; top: 1300px; left: 1050px;">联系邮箱：448419967@qq.com<br/>
+				   联系电话：61532    614010<br/>
+				   联系地址：广东省中山市五桂山镇广东药科大学（中山校区）<br/><br/>
+
+				   您也可以留下您的联系方式，我们会主动与您联系<br/>
+				</p>
+				  <form class="form-horizontal">
+				    <div class="control-group">
+				          <!-- Text input-->
+				          <label class="control-label" for="input01">您的姓名</label>
+				          <div class="controls">
+				            <input type="text" placeholder="请输入您的姓名" class="input-xlarge" size="58">
+				          </div>
+				        </div>
+
+				    <div class="control-group">
+
+				          <!-- Text input-->
+				          <label class="control-label" for="input01">联系电话</label>
+				          <div class="controls">
+				            <input type="text" placeholder="请输入您的联系电话" class="input-xlarge" size="58">
+				          </div>
+				        </div>
+
+				    <div class="control-group">
+
+				          <!-- Select Basic -->
+				          <label class="control-label">萌宠类别</label>
+				          <div class="controls">
+				            <select class="input-xlarge">
+				              <option>可爱汪星人</option>
+				              <option>高冷喵星人</option>
+				              <option>萌系小兔纸</option>
+				              <option>其他萌物</option>
+				            </select>
+				          </div>
+				        </div>
+
+				    <div class="control-group">
+
+				          <!-- Textarea -->
+				          <label class="control-label">其他要求</label>
+				          <div class="controls">
+				            <div class="textarea">
+				                  <textarea type="" class="" cols="60" rows="10"> </textarea>
+				            </div>
+				          </div>
+				        </div>
+
+				    <div class="control-group">
+				          <label class="control-label"></label>
+
+				          <!-- Button -->
+				          <div class="controls">
+				          <br/>
+				            <button class="btn btn-success">提交</button>
+				          </div>
+				        </div>
+				  </form>
+			</div>
+		</div>
+		<div id="footer">
+			<div id="icon">
+				<span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
+				<span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span>
+				<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+			</div>
+			<div id="icon_message">
+				<li style="padding-left: 490px;">地址：广东省中山市广东药科大学(中山校区)</li>
+				<li style="padding-left: 105px;">联系电话：13425470532</li>
+				<li style="padding-left: 160px;">邮箱：448419967@qq.com</li>
+			</div>
+			<div id="copyright-mark">
+				<span class="glyphicon glyphicon-copyright-mark" aria-hidden="true" style="font-size: 14px; color:white; position: relative; top: 1500px; left: 40%;">
+					2017/6/6---宠物商店网站 版权所有：8611	|
+					<a href="#nav" style="color: white;">返回首页</a>
+				</span>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
